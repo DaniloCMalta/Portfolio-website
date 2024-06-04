@@ -1,0 +1,38 @@
+body {
+background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+background-color: cornflowerblue;
+text-align: center;
+}
+
+h1 {
+color: black;
+}
+
+
+nav {
+text-align: center;
+}
+
+
+ul {
+display: inline-block; 
+}
+
+
+li {
+color: cornflowerblue;
+text-decoration: dashed;
+}
+
+
+h2 {
+color:cornflowerblue;
+}
+
+main p {
+color: white; 
+}
