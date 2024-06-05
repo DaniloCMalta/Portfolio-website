@@ -1,3 +1,9 @@
+
+html{
+    font-size: 16px;
+}
+
+
 body {
 background-color: black;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,26 +19,41 @@ color: black;
 }
 
 
-nav {
-text-align: center;
-}
-
-
 ul {
-display: inline-block; 
+    text-align: center; 
 }
 
 
 li {
-color: cornflowerblue;
-text-decoration: dashed;
+display: inline-block;
+padding-right: 15px;
 }
 
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: overline;
+    text-decoration-line: overline;
+    border-top: 4px solid;
+}
+
+#about {
+    display: inline-flex;
+}
 
 h2 {
 color:cornflowerblue;
 }
 
-main p {
+
+main p, h3, span {
 color: white; 
+}
+
+p {
+    text-align: justify;
 }
