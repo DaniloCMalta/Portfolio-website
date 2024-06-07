@@ -5,7 +5,7 @@ html{
 
 
 body {
-background-color: black;
+background-color: rgb(6, 6, 6);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -29,6 +29,7 @@ display: inline-block;
 padding-right: 15px;
 }
 
+
 a {
     color: cornflowerblue;
     text-decoration: none;
@@ -41,9 +42,33 @@ a:hover {
     border-top: 4px solid;
 }
 
-#about {
-    display: inline-flex;
+main, footer {
+    margin-left: 300px;
 }
+
+
+#about, #projects, #skills, footer {
+    margin-top: 70px;
+}
+
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+.about-text {
+    width: 500px;
+}
+
+
+.about-image {
+    margin-right: 300px;
+}
+
+
 
 h2 {
 color:cornflowerblue;
@@ -54,6 +79,26 @@ main p, h3, span {
 color: white; 
 }
 
+
 p {
     text-align: justify;
+}
+
+
+#projects img {
+    border: 2px solid white;
+}
+
+
+#projects p {
+    width: 500px;
+}
+
+
+.drumming, .my-message {
+    margin-top: 40px;
+}
+
+#skills img {
+    margin: 10px;
 }
