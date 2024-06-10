@@ -9,10 +9,14 @@ background-color: rgb(6, 6, 6);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 header {
 background-color: cornflowerblue;
 text-align: center;
 }
+
+
 
 h1 {
 color: black;
@@ -36,11 +40,11 @@ a {
 }
 
 
-a:hover {
-    text-decoration: overline;
-    text-decoration-line: overline;
-    border-top: 4px solid;
+nav a:hover {
+     border-top: 4px solid;
 }
+
+
 
 main, footer {
     margin-left: 300px;
@@ -61,6 +65,7 @@ main, footer {
 
 .about-text {
     width: 500px;
+    line-height: 1.5rem;
 }
 
 
@@ -75,14 +80,17 @@ color:cornflowerblue;
 }
 
 
-main p, h3, span {
+p, span, button {
 color: white; 
+text-align: justify;
 }
 
 
-p {
-    text-align: justify;
-}
+
+button:hover {
+    text-decoration: underline;
+}    
+
 
 
 #projects img {
@@ -92,12 +100,20 @@ p {
 
 #projects p {
     width: 500px;
+    line-height: 1.4rem;
 }
 
 
-.drumming, .my-message {
+
+.drumming {
     margin-top: 40px;
 }
+
+
+.drumming-content, .my-message-content {
+    display: none;
+}
+
 
 #skills img {
     margin: 10px;
