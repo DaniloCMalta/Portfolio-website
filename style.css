@@ -69,6 +69,7 @@ main, footer {
 }
 
 
+
 .about-image {
     margin-right: 300px;
 }
@@ -80,15 +81,17 @@ color:cornflowerblue;
 }
 
 
-p, span, button {
+
+p, span, h3 {
 color: white; 
 text-align: justify;
 }
 
 
 
-button:hover {
+h3:hover {
     text-decoration: underline;
+    cursor: pointer;
 }    
 
 
@@ -104,13 +107,12 @@ button:hover {
 }
 
 
-
 .drumming {
     margin-top: 40px;
 }
 
 
-.drumming-content, .my-message-content {
+#drumming-image, #drumming-text, #message-image, #message-text {
     display: none;
 }
 

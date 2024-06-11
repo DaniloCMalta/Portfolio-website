@@ -1,23 +1,31 @@
 
-let drummingButton = document.getElementById('drumming-button');
-let drummingContent = document.getElementsByClassName('drumming-content');
+// Drumming
 
-let showDrummingInfo = () => {
-     drummingContent.style.display = 'block';
+  let drummingButton = document.getElementById('drumming-button');
+  let drummingImage = document.getElementById('drumming-image');
+  let drummingText = document.getElementById('drumming-text');
+
+  function showDrummingInfo() {
+    drummingImage.style.display = 'block';
+    drummingText.style.display = 'block';
 }
 
-drumming.onclick = showDrummingInfo;
+drummingButton.addEventListener("click", showDrummingInfo);
 
 
 
+// My Message Generator
 
-let myMessageButton = document.getElementById('my-message-button');
-let myMessageContent = document.getElementsByClassName('my-message-content');
+  let myMessageButton = document.getElementById('message-button');
+  let myMessageImage = document.getElementsById('message-image');
+  let myMessageText = document.getElementById('message-text');
+   
 
-let showMyMessageInfo = () => {
-    myMessageContent.style.display = 'block';
+  function showMyMessageInfo() {
+    myMessageImage.style.display = 'block';
+    myMessageText.style.display = 'block';
 }
 
-myMessageButton.onclick = showMyMessageInfo;
+myMessageButton.addEventListener("click", showMyMessageInfo);
 
 
