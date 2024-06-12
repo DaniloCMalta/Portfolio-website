@@ -11,25 +11,25 @@ html{
 
 
 body {
-background-color: rgb(6, 6, 6);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(6, 6, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 
 header {
-background-color: cornflowerblue;
-text-align: center;
+    background-color: cornflowerblue;
+    text-align: center;
 }
 
 
 
 h1 {
-color: black;
-font-family: Archivo;
-text-transform: uppercase;
-letter-spacing: 2px;
-font-size: 2.2rem;
+    color: black;
+    font-family: Archivo;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
 }
 
 
@@ -56,12 +56,13 @@ nav a:hover {
 
 
 
-main, footer {
+main {
     margin-left: 300px;
 }
 
 
-#about, #projects, #skills, footer {
+
+#about, #projects, #skills, #contact, footer {
     margin-top: 70px;
 }
 
@@ -92,7 +93,7 @@ color:cornflowerblue;
 
 
 
-p, span, h3 {
+p, h3, h4, span {
 color: white; 
 text-align: justify;
 }
@@ -111,13 +112,15 @@ h3:hover {
 }
 
 
+
 #projects p {
     width: 500px;
     line-height: 1.4rem;
 }
 
 
-.drumming {
+
+.drumming, .details {
     margin-top: 40px;
 }
 
@@ -129,4 +132,20 @@ h3:hover {
 
 #skills img {
     margin: 10px;
+}
+
+
+#skills {
+    margin-bottom: 60px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 8px 0;
 }
