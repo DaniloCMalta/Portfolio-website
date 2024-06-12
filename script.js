@@ -2,30 +2,47 @@
 // Drumming
 
   let drummingButton = document.getElementById('drumming-button');
-  let drummingImage = document.getElementById('drumming-image');
-  let drummingText = document.getElementById('drumming-text');
+  let drummingContent = document.getElementById('drumming-content');
+  let drummingInfoVisible = false;
 
-  function showDrummingInfo() {
-    drummingImage.style.display = 'block';
-    drummingText.style.display = 'block';
-}
+  function toggleDrummingInfo() {
+    if (drummingInfoVisible) {
+      drummingContent.style.display = 'none';
+      drummingInfoVisible = false;  
+    } else {
+      drummingContent.style.display = 'block';
+      drummingInfoVisible = true;
+    }
+} 
 
-drummingButton.addEventListener("click", showDrummingInfo);
+  function increaseMarginDrumming() {
+    drummingContent.style.marginBottom = "36px";
+  } 
+   
+
+drummingButton.addEventListener("click", toggleDrummingInfo);
+drummingButton.addEventListener("click", increaseMarginDrumming);
 
 
 
 // My Message Generator
 
   let myMessageButton = document.getElementById('message-button');
-  let myMessageImage = document.getElementsById('message-image');
-  let myMessageText = document.getElementById('message-text');
-   
+  let myMessageContent = document.getElementById('message-content');
+  let myMessageInfoVisible = false; 
 
-  function showMyMessageInfo() {
-    myMessageImage.style.display = 'block';
-    myMessageText.style.display = 'block';
+
+  function toggleMyMessageInfo() {
+    if (myMessageInfoVisible) {
+      myMessageContent.style.display = 'none';
+      myMessageInfoVisible = false;
+    } else {
+      myMessageContent.style.display = 'block';
+      myMessageInfoVisible = true;
+    }
+      
 }
 
-myMessageButton.addEventListener("click", showMyMessageInfo);
+myMessageButton.addEventListener("click", toggleMyMessageInfo);
 
 
