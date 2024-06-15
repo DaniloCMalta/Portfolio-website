@@ -149,3 +149,23 @@ footer {
     text-align: center;
     padding: 8px 0;
 }
+
+
+
+
+@media screen and (max-width: 1400px) {
+    main {
+        margin-left: 40px;
+    }   
+
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    
+    .about-content { 
+        display: block;
+    }
+
+}
