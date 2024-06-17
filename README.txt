@@ -1,0 +1,1 @@
+Portfolio website created using HTML, CSS, and JavaScript, as part of my Codecademy off-platform projects journey. It also, obviously, aims to showcase my ongoing coding experience.
